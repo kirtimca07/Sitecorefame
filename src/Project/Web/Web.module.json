@@ -1,0 +1,20 @@
+{
+  "namespace": "Project.Web",
+  "references": ["Project.Web"],
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Foundation/AdvanceSitecore"
+      },
+      {
+        "name": "Multisites Homepage",
+        "path": "/sitecore/content/Altudo/Multisites"
+      },
+      {
+        "name": "Serialization Homepage",
+        "path": "/sitecore/content/Altudo/Serialization"
+      }
+    ]
+  }
+}
