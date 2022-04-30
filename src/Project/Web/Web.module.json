@@ -13,6 +13,10 @@
       {
         "name": "Serializations",
         "path": "/sitecore/content/Serializations"
+      },
+      {
+        "name": "Forms",
+        "path": "/sitecore/Forms"
       }
     ]
   }
