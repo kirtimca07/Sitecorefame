@@ -1,0 +1,33 @@
+﻿@using Sitecore.ExperienceForms.Mvc.Constants
+@model Sitecore.ExperienceForms.Mvc.Models.Fields.ButtonViewModel
+
+@{
+    var cssClass = Model.CssClassSettings.CssClass;
+    if (Model.NavigationStep < 0)
+    {
+        var classes = Model.CssClassSettings.CssClass.Split(' ');
+        if (!classes.Contains("cancel", StringComparer.OrdinalIgnoreCase))
+        {
+            if (!string.IsNullOrEmpty(Model.CssClassSettings.CssClass))
+            {
+                cssClass += " ";
+            }
+
+            cssClass += "cancel";
+        }
+    }
+}
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<link href="~/Styles/recaptcha.css" rel="stylesheet" />
+<script type="text/javascript">
+    function enableButton() {
+        document.getElementById("SubmitButton").disabled;
+    }
+</script>
+
+<input id="SubmitButton" value="@Html.DisplayTextFor(t => Model.Title)" type="submit" class="@cssClass" name="@Html.Name(Model.ItemId)" data-sc-field-key="@Model.ConditionSettings.FieldKey" disabled="disabled" style="margin: 0 10px" />
+
+<div class="g-recaptcha" data-sitekey="@Sitecore.Configuration.Settings.GetSetting("GoogleCaptchaPublicKey")" data-callback="enableButton"></div>
+
+@Html.Hidden(AttributeNames.NavigationButtons, Model.ItemId)
+@Html.Hidden(Model.ItemId, Model.NavigationStep)

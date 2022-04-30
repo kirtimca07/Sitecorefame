@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Training for Developers\SItecore-Practice\Sitecore_Forms_Practice\AdvancedSitecore\src\Project\Web\serialization\Layouts\AdvanceSitecore\AdvanceSitecoreDefault.yml
+ID: "7d869dad-1ba5-4063-a80a-9586f6a6db4b"
+Parent: "3a193cd5-c45c-4b7a-83b4-160485d32cc2"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/Foundation/AdvanceSitecore/AdvanceSitecoreDefault
+Signature: Z12W1e3/7CQx9hbK/j4jRaMAHbf2hIXB9n5UvDPI5+o=
+Modified: 637850431511287653
+---
+File: |
+  C:\Training for Developers\SItecore-Practice\Sitecore_Forms_Practice\AdvancedSitecore\src\Project\Web\serialization\Layouts\AdvanceSitecore.yml
+ID: "3a193cd5-c45c-4b7a-83b4-160485d32cc2"
+Parent: "10335194-8652-470a-9445-fd7c4fb21b4e"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Layouts/Foundation/AdvanceSitecore
+Signature: pTArFherYOs8Kdc3Vxqg0s1PZ6YDp9C4L2EuzCH9j6s=
+Modified: 637850431511266412

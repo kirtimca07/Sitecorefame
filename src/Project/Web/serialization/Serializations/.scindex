@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Training for Developers\SItecore-Practice\Sitecore_Forms_Practice\AdvancedSitecore\src\Project\Web\serialization\Serializations\Serializations\Home.yml
+ID: "824d3dd6-5965-4d2e-a929-ad9354abc295"
+Parent: "11c75976-d82c-4805-8d9b-a8490cb6b09e"
+Template: "4cec93d8-c23d-4684-9f4b-605634ab62f5"
+Path: /sitecore/content/Serializations/Home
+Signature: Dc2JJrbO50Y9FXsPbVzAkRQhNymadGslcYgv2iIb5ZM=
+Modified: 637850431511307667
+---
+File: |
+  C:\Training for Developers\SItecore-Practice\Sitecore_Forms_Practice\AdvancedSitecore\src\Project\Web\serialization\Serializations\Serializations.yml
+ID: "11c75976-d82c-4805-8d9b-a8490cb6b09e"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "ec2f7149-7702-4076-b80c-8cfd1e426643"
+Path: /sitecore/content/Serializations
+Signature: YBuacUiIsIEwzuYCh4fX0wwSNPTEA0yO4N0cWJdGbnc=
+Modified: 637850431511307667

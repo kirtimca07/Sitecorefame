@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Training for Developers\SItecore-Practice\Sitecore_Forms_Practice\AdvancedSitecore\src\Project\Web\serialization\Multisites\Multisites.yml
+ID: "0c480491-5df4-4caa-a241-6d99c0fc6822"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "ec2f7149-7702-4076-b80c-8cfd1e426643"
+Path: /sitecore/content/Multisites
+Signature: YBuacUiIsIEwzuYCh4fX0wwSNPTEA0yO4N0cWJdGbnc=
+Modified: 637850431511292663
+---
+File: |
+  C:\Training for Developers\SItecore-Practice\Sitecore_Forms_Practice\AdvancedSitecore\src\Project\Web\serialization\Multisites\Multisites\Home.yml
+ID: "f9e2ca48-e701-4f91-8e5f-f00a9cdccc9f"
+Parent: "0c480491-5df4-4caa-a241-6d99c0fc6822"
+Template: "4cec93d8-c23d-4684-9f4b-605634ab62f5"
+Path: /sitecore/content/Multisites/Home
+Signature: zbABjAgqqye4/cauJBoohf70wQ6syNNmD3I5fOEkw7s=
+Modified: 637864885269522191
