@@ -329,6 +329,7 @@
   <ItemGroup>
     <Content Include="Views\Layout\AdvanceSitecore\Default.cshtml" />
     <Content Include="App_Config\Sitecore.config" />
+    <Content Include="App_Config\Environment\Feature.FormsExtentions.GoogleRecaptcha.config" />
     <None Include="packages.config" />
     <Content Include="Views\FormBuilder\FieldTemplates\Button.cshtml" />
     <None Include="Views\Web.config" />
